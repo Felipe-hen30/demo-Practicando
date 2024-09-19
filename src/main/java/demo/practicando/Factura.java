@@ -6,5 +6,8 @@ public class Factura {
 	int precio = 8000;
 	Double iva = 28.5;
 	
-
+public void setPrecio(int precio) {
+	this 
+	
+}
 }

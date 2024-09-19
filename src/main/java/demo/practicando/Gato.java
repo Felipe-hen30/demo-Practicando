@@ -3,8 +3,8 @@ package demo.practicando;
 public class Gato {
 
 	String nombre = "alveiro";
-	int vidasrestantes = 1;
-	Double testflexibilidad = -16.8;
+	int vidasRestantes = 1;
+	Double testFlexibilidad = -16.8;
 	
 	
 	
