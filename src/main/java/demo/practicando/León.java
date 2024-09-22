@@ -1,12 +1,37 @@
 package demo.practicando;
 
 public class León {
-	
-	String vacunarabia = "si";
-	int coitosaldia = 8;
-	Double velocidadporhora = 27.9;
-	
-	
-	
+
+	String vacunaMortal;
+	int coitosAldia;
+	Double velocidadPorHora;
+
+	public void setVacunaMortal(String vacunaMortal) {
+		this.vacunaMortal = vacunaMortal;
+
+	}
+
+	public String getVacunaMortal() {
+		return this.vacunaMortal;
+
+	}
+
+	public void setCoitosAlDia(int ciotosAlDia) {
+		this.coitosAldia = coitosAlDia;
+
+	}
+
+	public int getCoitosAlDia() {
+		return this.coitosAldia;
+	}
+
+	public void setVelocidadPorHora(Double velocidadPorHora) {
+		this.velocidadPorHora = velocidadPorHora;
+
+	}
+
+	public Double getVelocidadPorHora() {
+		return this.velocidadPorHora;
+	}
 
 }
