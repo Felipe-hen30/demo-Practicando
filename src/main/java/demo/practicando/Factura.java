@@ -7,7 +7,7 @@ public class Factura {
 	Double iva;
 
 public void setCoche(String coche) {
-	this coche = coche;
+	this.coche = coche;
 	
 }
 
@@ -16,7 +16,7 @@ public void setCoche(String coche) {
 	}
 
 public void setPrecio(int precio) {
-	this precio = precio;
+	this.precio = precio;
 	
 }
 
@@ -25,7 +25,7 @@ public void setPrecio(int precio) {
 	}
 
 public void setIva(Double iva) {
-	this iva = iva;
+	this.coche = iva;
 }
 
 	public Double getIva() {
