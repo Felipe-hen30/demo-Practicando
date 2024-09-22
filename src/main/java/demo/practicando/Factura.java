@@ -1,13 +1,34 @@
 package demo.practicando;
 
 public class Factura {
-	
-	String coche = "wolskwagen";
-	int precio = 8000;
-	Double iva = 28.5;
-	
-public void setPrecio(int precio) {
-	this 
+
+	String coche;
+	int precio;
+	Double iva;
+
+public void setCoche(String coche) {
+	this coche = coche;
 	
 }
+
+	public String getCoche() {
+		return this.coche;
+	}
+
+public void setPrecio(int precio) {
+	this precio = precio;
+	
+}
+
+	public int getPrecio() {
+		return this.precio;
+	}
+
+public void setIva(Double iva) {
+	this iva = iva;
+}
+
+	public Double getIva() {
+		return this.iva;
+	}
 }
